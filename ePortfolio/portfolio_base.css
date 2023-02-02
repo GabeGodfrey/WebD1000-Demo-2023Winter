@@ -1,0 +1,32 @@
+@charset "uft-8";
+/*
+Author: Gabe Godfrey
+Date: 2/2/2023
+CSS file fore ePortfolio
+*/
+
+
+body{
+    background-color: grey;
+    color: white;
+    font-family: Cambria;
+
+}
+
+a{ 
+     color:whitesmoke;
+}
+
+h1 {
+    color:gold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+p{
+    background-color:darkblue;
+}
+
+
+section{
+    background-color: red;
+}
