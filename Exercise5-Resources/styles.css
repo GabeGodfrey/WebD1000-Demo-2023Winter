@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*Author: Gabe Godfrey -- Jan 31/2023*/
+
+body {background-color: skyblue;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em; 
+  }
+  
+strong {
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+p {
+    font-style: verdana;
+    font-size: 1.2em;
+  }
+
+
+#p1{
+    background-color: rgb(255,0,0) ;
+    opacity: 0.5;
+}
+
+#p2{
+    background-color: rgb(0,255,0) ;
+    opacity: 0.5;
+}
+
+#p3{
+    background-color:  rgb(0,0,255);
+    opacity: 0.5;
+}
+
+#p4{
+    background-color:  rgb(255,255,0) ;
+    opacity: 0.5;
+}
+
+#p5{
+    background-color:  rgb(0,255,255) ;
+    opacity: 0.5;
+}
+
+#p2,#p4,#p5 {
+    font-weight: bold;
+  }
+
+
+ 
+
+
