@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Author: Gabe Godfrey
+   Feb 14/2023 */
+.resume-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  100px 100px 100px 100px 100px 100px;
+}
+
+.part-one{ 
+    grid-column: 1/2;
+    grid-row: 1/2; 
+}
+
+.part-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+body{
+    background-color: grey;
+    color: whitesmoke;
+}
