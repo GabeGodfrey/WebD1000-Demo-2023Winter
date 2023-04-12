@@ -1,11 +1,9 @@
 @charset "UTF-8";
 /* Author: Gabe Godfrey
    Feb 14/2023 */
-.resume-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows:  100px 100px 100px 100px 100px 100px;
-}
+
+
+
 
 .part-one{ 
     grid-column: 1/2;
@@ -20,4 +18,55 @@
 body{
     background-color: grey;
     color: whitesmoke;
+}
+/* Phone */
+@media screen and (max-width: 767px) {
+    .grid-container{
+        background-color: white;
+        padding: 20px;
+    }
+    #Burger{
+        width:20px;
+    }
+
+  }
+
+  /*Tablet*/
+  @media screen and (min-width: 768px) {
+    .resume-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:  100px 100px 100px 100px 100px 100px;
+    }
+    div#nav>a{
+        float:left;
+        width:20%;
+        background-color: red;
+     }
+    
+    div#nav{
+       list-style-type: none;
+       width:100%;
+       overflow:hidden;
+     }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .resume-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:  100px 100px 100px 100px 100px 100px;
+    }
+    div#nav>a{
+        float:left;
+        width:20%;
+        background-color: red;
+     }
+    
+    div#nav{
+       list-style-type: none;
+       width:100%;
+       overflow:hidden;
+     }
 }
